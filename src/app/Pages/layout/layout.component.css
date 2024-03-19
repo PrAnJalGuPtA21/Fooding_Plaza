@@ -1,0 +1,69 @@
+.box{
+    margin: 50px 100px auto 100px
+}
+.image{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.image>img{
+    width: 500px;
+    height: 600px;
+    float: right;
+    border-radius: 25px;
+}
+.content{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content-p{
+    font-size:large;
+    color: red;
+    margin:0 ;
+}
+.food{
+    font-size: 50px;
+    font-style: italic;
+    margin: 0;
+}
+span{
+    font-size: 30px;
+}
+.contnt{
+    font-size:20px ;
+}
+.button-bar{
+    width: 400px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.button-bar1{
+    margin-right: 20px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(252, 204, 132);
+    border-radius: 50px;
+}
+.button-bar1:hover{
+    background-color: rgb(167, 136, 89);
+    color: white;
+
+}
+.button-bar2{
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    font-size: large;
+
+}
+.button-bar2:hover{
+    background-color: rgb(138, 138, 138);
+    color: white;
+    font-size: large;
+
+}
